@@ -127,4 +127,3 @@ for ($tr = 1; $tr <= $rows; $tr++) {
 echo '</table>';
 
 echo PHP_EOL;
-
