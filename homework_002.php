@@ -14,7 +14,7 @@ $age = 30;
 
 echo 'Меня зовут:' . ' ' . $name . PHP_EOL;
 echo 'Мой возвраст' . ' ' . $age . PHP_EOL;
-echo "“!|\/’”/\'" . PHP_EOL;
+echo "\"!|\\/'\"\\" . PHP_EOL;
 echo PHP_EOL;
 
 /**
@@ -23,7 +23,7 @@ echo PHP_EOL;
 const PIC = 80;
 const PIC_FL = 23;
 const PIC_PENCIL = 40;
-const PIC_OTHERS = PIC - PIC_FL - PIC_PENCIL;
+const PIC_OTHERS = PIC - (PIC_FL + PIC_PENCIL);
 
 echo 'Рисунков сделаных красками:' . ' ' . PIC_OTHERS . PHP_EOL;
 echo PHP_EOL;
@@ -125,3 +125,6 @@ for ($tr = 1; $tr <= $rows; $tr++) {
 }
 
 echo '</table>';
+
+echo PHP_EOL;
+
